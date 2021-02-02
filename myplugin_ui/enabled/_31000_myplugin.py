@@ -5,7 +5,7 @@ PANEL = 'mypanel'
 PANEL_DASHBOARD = 'identity'
 
 # Python panel class of the PANEL to be added.
-ADD_PANEL = 'myplugin.content.mypanel.panel.MyPanel'
+ADD_PANEL = 'myplugin_ui.content.mypanel.panel.MyPanel'
 
 # A list of applications to be prepended to INSTALLED_APPS
 ADD_INSTALLED_APPS = ['myplugin_ui']
