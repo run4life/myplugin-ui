@@ -8,7 +8,7 @@ PANEL_DASHBOARD = 'identity'
 ADD_PANEL = 'myplugin.content.mypanel.panel.MyPanel'
 
 # A list of applications to be prepended to INSTALLED_APPS
-ADD_INSTALLED_APPS = ['myplugin']
+ADD_INSTALLED_APPS = ['myplugin_ui']
 
 # A list of AngularJS modules to be loaded when Angular bootstraps.
 ADD_ANGULAR_MODULES = ['horizon.dashboard.identity.myplugin.mypanel']
