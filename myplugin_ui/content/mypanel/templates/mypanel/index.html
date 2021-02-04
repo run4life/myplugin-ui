@@ -1,11 +1,15 @@
 {% extends 'base.html' %}
 {% load i18n %}
-{% block title %}{% trans "My plugin" %}{% endblock %}
+{% block title %}{% trans "My panel" %}{% endblock %}
 
 {% block page_header %}
-  {% include "horizon/common/_domain_page_header.html" with title=_("My Panel") %}
+  <hz-page-header
+    header="{$ 'My panel' | translate $}"
+    description="{$ 'My custom panel!' | translate $}">
+  </hz-page-header>
 {% endblock page_header %}
 
 {% block main %}
-  Hello world!
+  <ng-include src="'{{ STATIC_URL }}dashboard/identity/myplugin/mypanel/mypanel.html'">
+  </ng-include>
 {% endblock %}
