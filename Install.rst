@@ -6,6 +6,7 @@
 # yum -y install systemd-devel libsystemd-dev
 
 构建horizonrpm包需要的依赖装包：
+# yum install centos-release-openstack-rocky
 # yum install python2-django python2-django-nos python2-pycodestyle python-nose-exclude python-selenium python-anyjso python2-django-debreac python2-django-compressor python2-django-pyscss python2-XStatic python2-XStatic-* python2-scss python-django-appconf python-lesscpy python-semantic_version python-pint
 # yum install python2-django-nose python-selenium python-anyjson python2-django-debreach python-XStatic-*
 # yum install python2-openstackclient python2-swiftclient python2-oslo-concurrency python2-osprofiler python2-oslo-policy fontawesome-fonts python2-XStatic-Font-Awesome fontawesome-fonts-web
